@@ -18,6 +18,13 @@
     background-size: cover;
     height: 100vh;
 }
+.body {
+        background-image: url('https://media.tenor.com/sbfBfp3FeY8AAAAj/oia-uia.gif');
+        background-size: cover; /* Adjusts the image to cover the entire background */
+        background-position: center; /* Centers the background */
+        background-repeat: no-repeat; /* Prevents tiling */
+        background-attachment: fixed; /* Keeps the background static when scrolling */
+}
 
 .navbar{
     width: 1200px;
