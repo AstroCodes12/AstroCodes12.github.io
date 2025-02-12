@@ -27,9 +27,9 @@
 }
 
 .spin {
-            transform: rotate(360deg);
-            opacity: 0;
-        }
+        transform: rotate(360deg);
+        opacity: 0;
+}
 
 .navbar{
     width: 1200px;
