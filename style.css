@@ -26,6 +26,11 @@
         background-attachment: fixed; /* Keeps the background static when scrolling */
 }
 
+.spin {
+            transform: rotate(360deg);
+            opacity: 0;
+        }
+
 .navbar{
     width: 1200px;
     height: 75px;
