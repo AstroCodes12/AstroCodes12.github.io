@@ -4,6 +4,15 @@
     <title>Generic Webpage</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <style> 
+    body {
+        background-image: url('https://media.tenor.com/sbfBfp3FeY8AAAAj/oia-uia.gif');
+        background-size: cover; /* Adjusts the image to cover the entire background */
+        background-position: center; /* Centers the background */
+        background-repeat: no-repeat; /* Prevents tiling */
+        background-attachment: fixed; /* Keeps the background static when scrolling */
+}
+    </style>
 <body>
 
     <div class="main">
@@ -46,10 +55,9 @@
                 </div>
         </div>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script>
         function spinAndNavigate() {
-            document.main.classList.add('spin'); // Add spinning effect
+            document.body.classList.add('spin'); // Add spinning effect
             setTimeout(() => {
                 window.location.href = "https://astrocodes12.github.io/About.html"; // Navigate after animation
             }, 1000); // Matches the transition duration (1s)
