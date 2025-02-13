@@ -5,6 +5,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <style> 
+         /* Define the animation */
+    @keyframes colorFade {
+      0%   { background-color: #3498db; }
+      50%  { background-color: #2ecc71; }
+      100% { background-color: #3498db; }
+    }
+
+    /* Apply the animation to a class */
+    .animated-box {
+      width: 100px;
+      height: 100px;
+      animation: colorFade 2s infinite alternate;
+    }
         body {
             background-image: url('https://media.tenor.com/sbfBfp3FeY8AAAAj/oia-uia.gif');
             background-size: cover; /* Adjusts the image to cover the entire background */
@@ -38,6 +51,7 @@
 
         </div> 
         <div class="content">
+            <div class="animated-box"></div>
             <h1>Generic Website </h1>
             <p class="par">This website is generic. It has nothing interesting. <br> Everything is purple
                 <br> <br>Sum or no Sum? Hoc est Quaestio!</p>
