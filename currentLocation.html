@@ -26,6 +26,7 @@
         </ul>
     </div>
     <div id="map"></div>
+    <h1>Loading...</h1>
 
     <script>
         if (navigator.geolocation) {
@@ -40,11 +41,11 @@
                 }).addTo(map);
 
                 L.marker([lat, lng]).addTo(map)
-                    .bindPopup("You are here!")
+                    .bindPopup("We Found You.")
                     .openPopup();
-            }, () => alert("Geolocation failed!"));
+            }, () => alert("Damnit, you got away >:["));
         } else {
-            alert("Geolocation is not supported by this browser.");
+            alert("This nerds got his location serviced off");
         }
     </script>
 </body>
